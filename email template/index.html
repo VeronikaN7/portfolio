@@ -1,0 +1,374 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<style>
+		body {
+			width: 100% !important;
+			-webkit-text-size-adjust: 100%;
+			-ms-text-size-adjust: 100%;
+			margin: 0;
+			padding: 0;
+			line-height: 100%;
+		}
+
+		[style*="Open Sans"] {font-family: 'Open Sans', arial, sans-serif !important;}
+
+		img {
+			outline: none;
+			text-decoration: none;
+			border:none;
+			-ms-interpolation-mode: bicubic;
+			max-width: 100%!important;
+			margin: 0;
+			padding: 0;
+			display: block;
+		}
+    
+		table td {
+			border-collapse: collapse;
+		}
+    
+		table {
+			border-collapse: collapse;
+			mso-table-lspace: 0pt;
+			mso-table-rspace: 0pt;
+		}
+
+        .menu a{
+            color: #6c6c6c;
+            font-size: 14px;
+            font-weight: 400;
+            letter-spacing: 0.28px;
+            text-decoration: none;
+        }
+
+        .menu td{
+            padding-left: 30px;
+        }
+         
+        .header-td{
+            padding-top:40px ;
+            padding-bottom: 40px;
+        }
+        .btn-readmore{
+            border: none;
+            border-radius: 3px;
+            background-color: rgb(255, 154, 171);
+            padding:10px 10px;
+            color:black ;
+        }
+        .features-td{
+            padding-top:100px ;
+            padding-bottom: 100px;
+        }
+
+        .features-td p
+        {
+            width: 183px;
+            height:150px;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.28px;
+            color: #6c6c6c;
+        }
+    
+        .reviewer-img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+            background-size:cover;
+        }
+
+        .block-td p{
+            width: 280px;
+            height: 100px;
+            font-family: sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0.28px;
+            color: #6c6c6c;
+            padding: 5px;
+        }
+
+        .block-table {
+            border-top: 1px solid #e6e6e6;
+            border-left: 1px solid #e6e6e6;
+            border-right: 1px solid #e6e6e6;
+            border-bottom : 1px solid #e6e6e6;
+        }
+
+        .author {
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .author h3{
+            margin-top: 20px;
+            font-size: 15px;
+            font-weight: 600;
+            color: #686868;
+            font-family: sans-serif;
+            line-height: 26px;
+            letter-spacing: 0.56px;
+        }
+        .author p{
+            font-size: 15px;
+            font-weight: 400;
+            color: #686868;
+            font-family: sans-serif;
+            letter-spacing: 0.52px;
+        }
+        .footer-td{
+            padding-top: 80px;
+            padding-bottom: 80px;
+            
+        }
+        .footer-menu-td{
+            padding-top: 60px;
+            padding-bottom: 60px;
+        }
+        .footer-menu-td a{
+            font-size: 14px;
+            font-weight: 400;
+            color: #686868;
+            letter-spacing: 0.36px;
+            text-decoration: none;
+        }
+        .copy-right-td{
+            color: #686868;
+            font-size: 12px;
+            font-weight: 400;
+            letter-spacing: 0.31px;
+        }
+
+        @media(max-width: 870px){
+            .table-850{
+                width: 600px !important;
+            }
+            .table-600{
+                width: 550px !important;
+            }
+            .block-table{
+                width: 200px !important;
+            }
+            .features-td td{
+                display: block;
+                margin-bottom: 50px;
+            }
+        }
+
+        @media(max-width: 700px){
+            .table-850{
+                width: 400px !important;
+            }
+            .table-600{
+                width: 320px !important;
+            }
+            .block-td{
+                display: block !important;
+                padding: 0 !important;
+                margin-bottom: 50px !important;
+            }
+            .block-quote-td tr{
+                display: block !important;
+            }
+            .author{
+                width: 200px !important;
+            }
+            .logo{
+               display: block !important; 
+               margin: 0 auto !important;
+               text-align: center !important;
+               width: 200px !important;
+               margin-bottom: 20px !important;
+            }
+            .logo img{
+                margin: 0 auto !important;
+            }
+            .menu{
+                display: block !important;
+                margin: 0 auto !important;
+            }
+        }
+        @media(max-width: 420px){
+            .table-850{
+                width: 300px !important;
+            }
+            .table-600{
+                width: 260px !important;
+            }
+            .block-table{
+                width: 260px !important;
+            }
+        }
+	</style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+	<div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое письмо</div>
+	<table cellpadding="0" cellspacing="0" width="100%" bgcolor="#ec5483">
+        <tr>
+            <td>
+                <table class="main table-850" cellpadding="0" cellspacing="0" width="850" align="center">
+                <!--TOP SPACE-->
+                    <tr>
+                        <td height="30" width="850"></td>
+                    </tr>
+                    <!--HEADER-->
+                    <tr>
+                        <td bgcolor="#ffffff" class="header-td" >
+                            <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                                <tr>
+                                    <td align="left" class="logo">
+                                        <img src="BELLA.png" alt="#"/>
+                                    </td>
+                                    <td align="right" class="menu">
+                                        <table cellpadding="0" cellspacing="0" align="center">
+                                            <tr>
+                                                <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, ;">Team</a></td>
+                                                <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, ;">Features</a></td>
+                                                <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, ;">Pricing</a></td>
+                                                <td><a href="#" style="font-family: Arial, Helvetica, sans-serif, ;">Contact</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!--BANNER IMG-->
+                    <tr>
+                        <td class="banner-td" >
+                            <a href="#">
+                                <img src="banner.jpeg" alt="#">
+                            </a>
+                        </td>
+                    </tr>
+                    <!--FEATURES-->
+                    <tr>
+                        <td class="features-td" bgcolor="#ffffff">
+                            <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                                <tr>
+                                    <td align="center">
+                                        <img src="refresh-arrow.png" alt="#">
+                                        <p>Lorem ipsum, dolor sit amet <br>  
+                                            consectetur adipisicing elit. <br>
+                                            Et, minus aliquam id  
+                                            rerum optio in quia <br>
+                                            veniam excepturi. </p>
+                                        <button class="btn-readmore"> READ MORE</button>
+                                    </td>
+                                    <td align="center">
+                                        <img src="stopwatch.png" alt="#">
+                                        <p>Lorem ipsum, dolor sit amet <br>  
+                                            consectetur adipisicing elit. <br>
+                                            Et, minus aliquam id  
+                                            rerum optio in quia <br>
+                                            veniam excepturi. </p>
+                                            <button class="btn-readmore"> READ MORE</button>
+                                    </td>
+                                    <td align="center">
+                                        <img src="clipboard.png" alt="#">
+                                        <p>Lorem ipsum, dolor sit amet <br>  
+                                            consectetur adipisicing elit. <br>
+                                            Et, minus aliquam id  
+                                            rerum optio in quia <br>
+                                            veniam excepturi. </p>
+                                        <button class="btn-readmore"> READ MORE</button>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!--REVIEWS-->
+                    <tr>
+                        <td class="block-quote-td" bgcolor="#ffffff">
+                            <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                                <tr>
+                                    <td class="block-td" align="center" style="padding-right: 20px; ">
+                                        <table cellpadding="0" cellspacing="0" class="block-table" align="center" width="280" >
+                                            <tr>
+                                                <td align="center">
+                                                    <p>Lorem ipsum dolor sit amet consectetur, <br/>adipisicing elit.
+                                                    Vitae eos nostrum quam, <br/>voluptatum ad beatae enim iure laudantium <br/>
+                                                    consequatur dicta sunt cumque maxime. </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+
+                                    <td class="block-td" align="center" style="padding-left: 20px;">
+                                        <table cellpadding="0" cellspacing="0" class="block-table" align="center" width="280" >
+                                            <tr>
+                                                <td align="center">
+                                                    <p>Lorem ipsum dolor sit amet consectetur, <br/>adipisicing elit.
+                                                    Vitae eos nostrum quam, <br/>voluptatum ad beatae enim iure laudantium <br/>
+                                                    consequatur dicta sunt cumque maxime. </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="author" align="center">
+                                        <img src="woman.jpeg" alt="#" class="reviewer-img"/>
+                                        <h3>Alexander Doe</h3>
+                                        <p style="font-family: Arial, Helvetica, sans-serif" >Senior UX Developer </p>
+                                    </td>
+                                    <td class="author" align="center">
+                                        <img src="man.jpg" alt="#" class="reviewer-img"/>
+                                        <h3>Lairue Doe</h3>
+                                        <p style="font-family: Arial, Helvetica, sans-serif">Marketing Expert</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!--FOOTER-->
+                    <tr>
+                        <td class="footer-td" bgcolor="#B0C4DE">
+                            <table class="table-600" cellpadding="0" cellspacing="0" width="600" align="center">
+                                <tr>
+                                    <td class="footer-logo" align="center">
+                                        <a href="#">
+                                            <img src="BELLA.png" alt="#">
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="footer-menu-td" align="center" >
+                                        <table  cellpadding="0" cellspacing="0" width="360" align="center">
+                                            <tr>
+                                                <td align="center"><a href="#" style="font-family: Arial, Helvetica, sans-serif" >About Us</a></td>
+                                                <td align="center"><a href="#" style="font-family: Arial, Helvetica, sans-serif">Teams</a></td>
+                                                <td align="center"><a href="#" style="font-family: Arial, Helvetica, sans-serif">News</a></td>
+                                                <td align="center"><a href="#" style="font-family: Arial, Helvetica, sans-serif">Contacts</a></td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="copy-right-td" align="center" style="font-family: Arial, Helvetica, sans-serif"> @ 2014 pixelhint.com. All Rights Reserved</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <!--BOTTOM SPACE-->
+                    <tr>
+                        <td height="30" width="850"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+		
+	</table>
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+.jumbotron{
+    border-radius: 5%;
+    background-color:#e9ecef9a;
+}
+
+.form-control:focus,
+.form-control:active
+{
+    border-color: transparent;
+    outline: none;
+    box-shadow: none;
+}
+.btn{
+    width: 100%;
+    display: block;
+    margin: 37px auto 17px;
+    border: 1px solid #212529;
+}
+ul li{
+    list-style-type: none;
+}
+a:hover{
+text-decoration: none;
+}
+.player-right .dropdown-toggle::after{
+    display: none;
+}

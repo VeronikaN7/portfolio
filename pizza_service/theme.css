@@ -1,0 +1,15 @@
+nav{
+    background: none;
+    box-shadow: none;
+}
+nav .brand-logo{
+    color:black;
+}
+.container ul a{
+    color: black;
+}
+
+[type="checkbox"]+span:not(.lever) {
+    
+    padding-left: 25px;
+}
